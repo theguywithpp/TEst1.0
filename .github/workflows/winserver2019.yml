@@ -8,7 +8,7 @@ on:
         required: true
       pin:
         description: Enter your 6 numbers pin
-        required: true
+        required: false
 jobs:
   build:
     runs-on: windows-2019
